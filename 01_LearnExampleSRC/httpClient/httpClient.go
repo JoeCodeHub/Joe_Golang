@@ -1,21 +1,21 @@
 package main
 
 import (
+    "encoding/xml"
     "flag"
     "fmt"
     "io/ioutil"
     "net/http"
     "os"
-    "encoding/xml"
 )
-
-type struct 
 
 func xmlFile(path string) {
 
     fmt.Printf("xmlpth: [%s]\n", path)
 
 }
+
+type
 
 func writefile(data []byte, fpath string) {
 
